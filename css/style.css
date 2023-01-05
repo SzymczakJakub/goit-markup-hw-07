@@ -109,7 +109,7 @@ body {
 .header__list a:focus {
   color: var(--blue);
 }
-.studio--black {
+.header__studio--black {
   color: var(--black);
 }
 
