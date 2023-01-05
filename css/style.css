@@ -230,7 +230,7 @@ body {
   padding-top: 0;
 }
 
-.secondary h2 {
+.secondary__name {
   font-size: 36px;
   font-weight: 700;
   line-height: 42px;
@@ -238,19 +238,19 @@ body {
   margin-bottom: 50px;
 }
 
-.picture {
+.secondary__picture {
   display: flex;
   justify-content: space-evenly;
   gap: 30px;
 }
-.position-relative {
+.secondary__position-relative {
   position: relative;
 }
-.position-relative > .aplications {
+.secondary__position-relative > .secondary__aplications {
   position: absolute;
   top: 224px;
 }
-.aplications {
+.secondary__aplications {
   background: rgba(47, 48, 58, 0.8);
   width: 370px;
   padding-top: 27px;
@@ -272,12 +272,12 @@ body {
   justify-content: center;
   text-align: center;
 }
-.team-pictures {
+.team__pictures {
   display: flex;
   justify-content: space-evenly;
   gap: 30px;
 }
-.team-pictures figure {
+.team__pictures figure {
   font-size: 0;
 }
 
@@ -289,7 +289,7 @@ body {
   margin: 0;
 }
 
-.team h2 {
+.team__head {
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 0.03em;
