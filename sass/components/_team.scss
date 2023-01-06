@@ -1,12 +1,12 @@
 .team {
-    background-color: #f5f4fa;
+    background-color: $iconsLorembg;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     
     & figure {
-    background-color: var(--white);
+    background-color: $white;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -36,7 +36,7 @@
     padding-bottom: 30px;
   }
   &__upper-text {
-    font-family: "Roboto";
+    font-family: $fontMain;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -47,10 +47,10 @@
     margin-bottom: 10px;
   }
   &__lower-text {
-    font-family: "Roboto";
+    font-family: $fontMain;
     font-size: 16px;
     font-weight: 400;
-    color: var(--grey);
+    color: $grey;
     letter-spacing: 0.03em;
     line-height: 19px;
   }
@@ -61,31 +61,31 @@
     margin-top: 16px;
   }
   &__social-links {
-    background-color: var(--white);
-    fill: var(--social-links);
+    background-color: $white;
+    fill: $socialLinks;
     border-radius: 50%;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
       &:hover {
-    background-color: var(--blue);
+    background-color: $blue;
     cursor: pointer;
   }
   }
   &__link-face:focus > .item-social {
-    fill: var(--white);
-    background-color: var(--blue);
+    fill: $white;
+    background-color: $blue;
     border-radius: 50%;
   }
   &__item-social {
-    fill: var(--social-links);
+    fill: $socialLinks;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
     &:hover {
-    fill: var(--white);
+    fill: $white;
   }
   &--white {
     vertical-align: middle;
-    fill: var(--white);
+    fill: $white;
   }
   }
   }

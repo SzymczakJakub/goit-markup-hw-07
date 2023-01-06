@@ -7,7 +7,7 @@
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     & figure {
-        background: var(--white);
+        background: $white;
         margin: 0;
         font-size: 0;
 
@@ -28,13 +28,13 @@
           }
       }
       &__technocrack {
-        font-family: "Roboto";
+        font-family: $fontMain;
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
         line-height: 28px;
         letter-spacing: 0.03em;
-        background-color: rgba(33, 150, 243, 0.9);
+        background-color: $bgTechnocrackColor;
         color: var(--white);
         padding: 49px 45px 49px 24px;
       }
@@ -57,7 +57,7 @@
       }
 
       &__upper-text {
-        font-family: "Roboto";
+        font-family: $fontMain;
         font-style: normal;
         font-weight: 700;
         font-size: 18px;
@@ -66,7 +66,7 @@
       }
 
       &__lower {
-        font-family: "Roboto";
+        font-family: $fontMain;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;

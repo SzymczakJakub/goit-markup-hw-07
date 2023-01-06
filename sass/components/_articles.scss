@@ -4,7 +4,7 @@
     text-align: left;
     
     &__svg-lorem {
-    background-color: #f5f4fa;
+    background-color: $iconsLorembg;
     border-radius: 4px;
     margin-bottom: 30px;
   }
@@ -18,11 +18,11 @@
     margin-bottom: 10px;
   }
   &__paragraph {
-    font-family: "Roboto", sans-serif;
+    font-family: $fontMain;
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 0, 03em;
-    color: var(--grey);
+    color: $grey;
     line-height: 24px;
   }
   }

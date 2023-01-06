@@ -31,7 +31,7 @@
     width: 370px;
     padding-top: 27px;
     padding-bottom: 27px;
-    font-family: "Roboto";
+    font-family: $fontMain;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -39,7 +39,7 @@
     text-align: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--white);
+    color: $white;
   }
   }
   
