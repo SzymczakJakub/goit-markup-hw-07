@@ -1,4 +1,4 @@
-.secondary {
+.jobs {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,7 +21,7 @@
     position: relative;
   }
   
-  &__position-relative > .secondary__aplications {
+  &__position-relative > .jobs__aplications {
     position: absolute;
     top: 224px;
   }
