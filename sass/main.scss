@@ -36,4 +36,9 @@ header {
   }
   body {
     color: var(--black);
+    font-family: $fontMain;
+    
+  }
+  .section {
+    padding-top:94px
   }

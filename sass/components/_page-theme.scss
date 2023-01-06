@@ -9,8 +9,8 @@
     padding-bottom: 0;
     background-image: linear-gradient(
         to bottom,
-        var(--bacground-image),
-        var(--bacground-image)
+        $bacground-image,
+        $bacground-image
       ),
       url("../images/new-image.jpg");
   
