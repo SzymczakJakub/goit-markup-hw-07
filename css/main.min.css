@@ -745,8 +745,10 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  gap: 7px .privacy a;
-  gap-color: #2196f3;
+  gap: 7px;
+}
+.privacy a {
+  color: #2196f3;
 }
 .privacy__hidden-checkbox {
   display: none;
@@ -949,9 +951,6 @@
 .team__item-social--white {
   vertical-align: middle;
   fill: #fff;
-}
-.section {
-  padding: 94px 0;
 }
 header {
   border-bottom: 1px solid #ececec;
