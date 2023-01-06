@@ -5,4 +5,11 @@
     text-decoration: none;
     margin-right: 95px;
     line-height: 31px;
+
+    &__studio--black {
+      color: var(--black);
+    }
+    &__studio--white {
+      color: var(--white);
+    }
   }
